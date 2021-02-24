@@ -39,6 +39,9 @@ Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
 
+Plug 'kana/vim-textobj-user'
+Plug 'whatyouhide/vim-textobj-xmlattr'
+
 call plug#end()
 
 " Делаем Vim более функциональным
