@@ -1,10 +1,3 @@
-set sts=2
-set ts=2
-set sw=2
-set et
-set autoindent
-set cursorline
-
 call plug#begin()
 
 " FuzzyFinder (для быстрого поиска)
@@ -99,3 +92,15 @@ endfunction
 inoremap <expr> ( ConditionalPairMap('(', ')')
 inoremap <expr> { ConditionalPairMap('{', '}')
 inoremap <expr> [ ConditionalPairMap('[', ']')
+
+
+
+filetype plugin indent on
+" On pressing tab, insert 2 spaces
+set expandtab
+" show existing tab with 2 spaces width
+set tabstop=2
+set softtabstop=2
+" when indenting with '>', use 2 spaces width
+set shiftwidth=2
+set cursorline
